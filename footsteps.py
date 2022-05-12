@@ -1,3 +1,9 @@
+"""
+Rohan Shah
+Click on either side of the lines to see footprints
+"""
+
+
 import pygame
 from pygame.locals import *
 
