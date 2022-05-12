@@ -1,3 +1,9 @@
+"""
+Rohan Shah
+click any key to write a line
+update the page number as you type
+"""
+
 import pygame
 from pygame.locals import *
 from _dashes import draw_dashed_line
