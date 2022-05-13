@@ -1,3 +1,8 @@
+"""
+Rohan Shah
+Click to place pushpin on map
+"""
+
 import pygame
 from pygame.locals import *
 
