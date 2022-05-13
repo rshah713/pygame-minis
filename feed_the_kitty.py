@@ -2,6 +2,7 @@
 Rohan Shah
 Click anywhere to add food to the plate
 Enough food will make the cat happy
+Cat's eyes will follow as mouse moves
 """
 
 
