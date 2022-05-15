@@ -15,3 +15,5 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Make-a-map_: Mouseclick anywhere to place pushpin on map
 - _Mirror Mouse_: Move the mouse in any quadrant to watch other cursor's copy
 - _Swing set_: Use advanced math to have swingset follow mouse movement
+- _Sun and Moon_: Click to place sun, moon will follow
+- _Pixel Art_: Arrow keys to move painter, spacebar to place color, featuring file-streaming, console input to save/open previous drawings
