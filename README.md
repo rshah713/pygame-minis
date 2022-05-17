@@ -17,3 +17,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Swing set_: Use advanced math to have swingset follow mouse movement
 - _Sun and Moon_: Click to place sun, moon will follow
 - _Pixel Art_: Arrow keys to move painter, spacebar to place color, featuring file-streaming, console input to save/open previous drawings
+- _Cell Reception_: Mouse movement to move cell phone, bars light depending on mouse pos
