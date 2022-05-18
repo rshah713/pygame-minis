@@ -18,3 +18,6 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Sun and Moon_: Click to place sun, moon will follow
 - _Pixel Art_: Arrow keys to move painter, spacebar to place color, featuring file-streaming, console input to save/open previous drawings
 - _Cell Reception_: Mouse movement to move cell phone, bars light depending on mouse pos
+- _Thermometer_: Update temperature and adjust background based on mouseY, using basic math to ensure scaled reading
+- _Bouncing ball_: Mimic realistic ball bounce through mock "acceleration" and can be adjusted with mouseclick
+- _Gridmaking_: Basic animation of expanding grid
