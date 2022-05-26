@@ -93,6 +93,7 @@ def is_adjacent(cell, cellClicked):
 
 
 def is_legal_ship(cell, board, numParts):
+    # If the location is not an ocean, it is not legal.
     global LAST_CLICKED
     if cell == None or cell[1] != 'ocean':
         return False
@@ -110,7 +111,7 @@ def place_player(mouseX, mouseY):
     # Place a player ship in the cell if it will be a legal move.
     global SHIPS_PLACED
     cell = find_cell(mouseX, mouseY, PLAYER_BOARD)
-
+    # Place a player ship in the cell if it will be a legal move.
     if is_legal_ship(cell, PLAYER_BOARD, SHIPS_PLACED):
         cell[1] = 'hiddenShip'
         SHIPS_PLACED += 1
@@ -131,10 +132,12 @@ def place_enemies():
             num_ships += 1
             
 def play_turn(mouseX, mouseY):
+    # On each turn, see if the cell clicked was valid.
     global GAME_STATE
     # fire at enemy
     cell = find_cell(mouseX, mouseY, ENEMY_BOARD)
-    sink_or_miss(cell)
+    if sink_or_miss(cell):
+        enemy_turn()
 
     # check if game ends
     if check_win(ENEMY_BOARD):
@@ -146,7 +149,33 @@ def play_turn(mouseX, mouseY):
         GAME_STATE = 'over'
         return True
         
+def enemy_turn():
+    global PLAYER_BOARD, GAME_STATE
+    # On an enemy turn, randomly pick a new cell to attack.
 
+    new_spot = False
+    while not new_spot:
+        # Pick a random cell by choosing a row and column.
+        randomRow = random.randint(0, 7)
+        randomCol = random.randint(0, 7)
+        randomCell = PLAYER_BOARD[randomRow][randomCol]
+
+        # If the cell has not been attacked yet, end the loop.
+        if ((randomCell[1] == 'ocean') or
+            (randomCell[1] == 'hiddenShip')):
+            new_spot = True
+
+    # Checks if the attacked cell is a ship then check if the game ends.
+    sink_or_miss(randomCell)
+    if check_win(PLAYER_BOARD):
+        # draw game lost screen
+        pygame.draw.rect(screen, (255, 0, 0), (0, 160, 400, 90))
+        msg = win_fnt.render('YOU LOST!', True, (255, 255,255))
+        msg_rect = msg.get_rect()
+        msg_rect.center = (200, 200)
+        screen.blit(msg, msg_rect)
+        GAME_STATE = 'over'
+    
 def sink_or_miss(cell):
     print('sink or miss')
     if cell is not None:
@@ -182,6 +211,8 @@ def check_win(opp_board):
             if cell[1] == 'hiddenShip':
                 return False
     return True
+
+    
 while True:
     for event in pygame.event.get():
         if event.type == QUIT:
