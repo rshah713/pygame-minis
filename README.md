@@ -22,3 +22,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Bouncing ball_: Mimic realistic ball bounce through mock "acceleration" and can be adjusted with mouseclick
 - _Gridmaking_: Basic animation of expanding grid
 - _Tic-tac-toe_: GUI tic-tac-toe keeping track of current player, and game states
+- _Battleship_: Battleship vs computer that allows ship creation and randomization firing
