@@ -21,3 +21,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Thermometer_: Update temperature and adjust background based on mouseY, using basic math to ensure scaled reading
 - _Bouncing ball_: Mimic realistic ball bounce through mock "acceleration" and can be adjusted with mouseclick
 - _Gridmaking_: Basic animation of expanding grid
+- _Tic-tac-toe_: GUI tic-tac-toe keeping track of current player, and game states
