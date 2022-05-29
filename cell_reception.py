@@ -48,8 +48,10 @@ while True:
       
       
       
-  pygame.draw.rect(screen, (105, 105, 105), cellPhone, 4)
+  
+  
   pygame.draw.rect(screen, (0,0,0), cellPhoneBorder)
+  pygame.draw.rect(screen, (105, 105, 105), cellPhone, 4)
   pygame.draw.circle(screen, (105, 105, 105), tuple(cellPhoneButtonPos), 5)
   
   if pos[1] <= 100:
