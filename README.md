@@ -23,3 +23,17 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Gridmaking_: Basic animation of expanding grid
 - _Tic-tac-toe_: GUI tic-tac-toe keeping track of current player, and game states
 - _Battleship_: Battleship vs computer that allows ship creation and randomization firing
+- _Doodle Dodge_: Fully fledged game to dodge randomized obstacles, featuring circle/rect collision detection
+- _Memory Match_: Comprehensive app involving mouseclicks and game states
+- _Tug of War_: 2-player game using advanced math to calculate rope endpoints
+- _Sunny Meadow_: Animation of randomized flower position and size to mimic flower growth
+- _Atari Breakout_: Replica of Atari game using rect/circle collision and movement vectors
+- _Mirrored Polygons_: Click (minimum 3 times) on left side to create polygon, automatically mirrored, add infinity points to expand it
+- _Caption the worm_: Type to add text, automatically wraps text to nextline
+- _Etch-a-Sketch_: Arrow keys to move the cursor, space to clear the sketch
+- _Barrier Game_: Comprehensive game involving increasing speed, randomized barriers, score tracking, and collision detection
+- _Air Hockey_: Mousemotion to control paddle, advanced 'AI' opponent that tracks puck, vectorized puck movement
+- _NBA Rebounding_: Statistical graphic representation based on inputted data, creating graphs in pygame
+- _Color Palette App_: Sliders to create similar color collection, implementation of mousedrag, dynamic color-change
+- _Volcano_: Mouseclick to bring volcano closer to eruption
+- _Dot Race_: 2-player racing game using WASD and arrows, boundry collision detection to decide winner
