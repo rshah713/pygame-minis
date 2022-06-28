@@ -2,6 +2,14 @@ import pygame
 from pygame.locals import *
 import random
 
+
+
+"""
+Objects fall randomly
+use left/right key to avoid them
+player turns red when you crash
+"""
+
 FPS = 30
 OBSTACLES = []
 
