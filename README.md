@@ -37,3 +37,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Color Palette App_: Sliders to create similar color collection, implementation of mousedrag, dynamic color-change
 - _Volcano_: Mouseclick to bring volcano closer to eruption
 - _Dot Race_: 2-player racing game using WASD and arrows, boundry collision detection to decide winner
+- _Caps Lock Texting_: Customizable texting UI, switch caps lock on/off via one variable, and customize messages in UI
