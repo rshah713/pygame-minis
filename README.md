@@ -38,3 +38,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Volcano_: Mouseclick to bring volcano closer to eruption
 - _Dot Race_: 2-player racing game using WASD and arrows, boundry collision detection to decide winner
 - _Caps Lock Texting_: Customizable texting UI, switch caps lock on/off via one variable, and customize messages in UI
+- _Rock Paper Scissors_: Keypress controlled rock paper scissors, featuring auto-calculated winner
