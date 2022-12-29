@@ -9,7 +9,7 @@ from pygame.locals import *
 
 pygame.init()
 screen = pygame.display.set_mode((400, 400), 0, 32)
-pygame.display.set_caption('darts')
+pygame.display.set_caption('etch-a-sketch')
 font = pygame.font.Font('freesansbold.ttf', 30)
 dir_fnt = pygame.font.Font('freesansbold.ttf', 15)
 
