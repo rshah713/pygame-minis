@@ -40,3 +40,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Caps Lock Texting_: Customizable texting UI, switch caps lock on/off via one variable, and customize messages in UI
 - _Rock Paper Scissors_: Keypress controlled rock paper scissors, featuring auto-calculated winner
 - _Honey Pot_: Mousepress to draw honey from pot, automatically adjusting linewidth based on mouseY
+- _Reds_: Basic animation of cycling RGB colors
