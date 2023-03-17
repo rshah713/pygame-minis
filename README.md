@@ -41,3 +41,4 @@ Mini Pygame programs with minimal user interaction to create small "doodles" or 
 - _Rock Paper Scissors_: Keypress controlled rock paper scissors, featuring auto-calculated winner
 - _Honey Pot_: Mousepress to draw honey from pot, automatically adjusting linewidth based on mouseY
 - _Reds_: Basic animation of cycling RGB colors
+- _Flashy_: Basic animation of randomized circles 
